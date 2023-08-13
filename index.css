@@ -119,6 +119,28 @@
  border-radius: 1rem;
 }
 
+#party{
+  position: absolute;
+  left: 4rem;
+  top: 5.4rem;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 50%;
+  box-shadow: 3px 3px 20px #CBC8CE;
+  transition : 0.2s
+}
+
+#party:hover{
+  box-shadow: 3px 3px 25px #B480EA;
+}
+
+#signature{
+  position:absolute;
+  bottom:2.6rem;
+  right:3rem;
+  color:rgba(126, 126, 126, 0.87);
+  font-size: 1.2rem;
+}
 
 @media only screen and (max-width: 600px) {
     *{
